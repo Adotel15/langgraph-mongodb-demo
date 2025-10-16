@@ -79,8 +79,8 @@ python -m ipykernel install --user --name=langgraph-mongodb-demo --display-name=
 Create a `.env` file:
 
 ```bash
-cp .env.example .env  # if an example file exists
-# or create manually:
+cp .env.example .env
+
 touch .env
 ```
 
