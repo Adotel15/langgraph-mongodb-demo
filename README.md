@@ -40,7 +40,7 @@ uv --version
 ### 3. Clone and navigate to the project
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Adotel15/langgraph-mongodb-demo.git
 cd langgraph-mongodb-demo
 ```
 
@@ -74,9 +74,9 @@ To be able to use the virtual environment in Jupyter notebooks:
 python -m ipykernel install --user --name=langgraph-mongodb-demo --display-name="LangGraph MongoDB Demo"
 ```
 
-### 8. Configure environment variables (optional)
+### 8. Configure environment variables 
 
-If the project requires API keys or other configurations, create a `.env` file:
+Create a `.env` file:
 
 ```bash
 cp .env.example .env  # if an example file exists
