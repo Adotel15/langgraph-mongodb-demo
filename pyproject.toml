@@ -7,10 +7,12 @@ requires-python = ">=3.12"
 
 dependencies = [
     "ipykernel>=7.0.1",
+    "jupyterlab>=4.0.0",
     "langchain>=0.3.27",
     "langchain-community>=0.3.31",
     "langchain-openai>=0.3.35",
     "langgraph>=0.6.10",
+    "langgraph-checkpoint-mongodb>=0.2.1",
     "pymongo>=4.15.3",
     "python-dotenv>=1.1.1",
 ]
